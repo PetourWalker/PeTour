@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    font-family:'Roboto';
+}
+
+.Container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ButtonCalendar{
+    width: 90%;
+    height: 40px;
+    color: #7C7C7C;
+    background-color: transparent;
+    border: none;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.ButtonCalendar:hover{
+    color: #FF5F5F;
+    background-color: #ffd4d4;
+}
+
+.line{
+    margin-top: 20px;
+    width: 100%;
+    height: 8px;
+    background-color: #a9a9a9;
+}
+
+.Return{
+    margin-top: 40px;
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+}
+
+.contReturn{
+    width: 100%;
+}
+
+.contInfo{
+    display: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+}
+
+.primerDia{
+grid-column-start: 4;
+}
+
+.dayName{
+    background-color: #ffbcbc;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dayName:hover{
+    border-radius: 1px;
+    background-color:#ffbcbc ;
+}
+
+.contCalendar{
+    width: 100%;
+    text-align: center;
+}
+
+li:hover{
+    background-color: #FF5F5F;
+    border-radius: 8px;
+}
+
+.Day{
+    border-radius: 8px;
+    background-color: #a9a9a9;
+}
